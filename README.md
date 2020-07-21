@@ -39,3 +39,5 @@ This script allows you to classify possible varroa matches in a picture. It will
 - "a" to label a sample as varroa,  
 - "d" to tag it as a falsep-ositive,
 - any other key to skip the sample
+
+The labeled images are stored at the location: dataset_dir
