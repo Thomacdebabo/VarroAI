@@ -38,7 +38,7 @@ utils.Img_to_Dataset(img_dir, dataset_dir)
 ```
 This script allows you to classify possible varroa matches in a picture. It will show you a sample and you have to press the right key:
 - "a" to label a sample as varroa,  
-- "d" to tag it as a falsep-ositive,
+- "d" to tag it as a false positive,
 - any other key to skip the sample
 
 The labeled images are stored at the location: dataset_dir
