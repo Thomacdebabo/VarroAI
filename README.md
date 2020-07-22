@@ -22,6 +22,7 @@ import Source.Utils as utils
 
 utils.batchProcessing(r"Path/to/Images")
 ```
+
 This process will just output the results in the console. Will probably ad csv, json or txt files for that at some point.
 
 ## Extend the Dataset
@@ -41,3 +42,13 @@ This script allows you to classify possible varroa matches in a picture. It will
 - any other key to skip the sample
 
 The labeled images are stored at the location: dataset_dir
+
+
+## Requirements
+This code works on python 3.7 with:
+- tensorflow 2.0 (with keras)
+- numpy
+- matplotlib
+- PyQt5
+- pyqtgraph
+- opencv
