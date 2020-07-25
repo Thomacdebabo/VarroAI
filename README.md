@@ -4,6 +4,9 @@ Beekeepers nowadays have to worry a lot about a species of parasitic mites calle
 
 This project aims to eliminate the need to manually count the amount of varroa for each beehive. Instead we want to use classical computer vision algorithms combined with machine learning.
 
+## How does it work?
+In a first step the script uses thresholding and the opencv blob detector to find possible varroa parasites. This process requires the varroa to be on a white background and tries to mask out anything else. This process will return a set of small images containing the found blobs. The AI will now classify all the blobs as either a varroa hit or a false positive and return the amount of them. Alternatively you can go manually through all the possible hits to extend the dataset or evaluate the accuracy of the AI.
+
 ## Training the model
 I made a small GUI so we can track the training progress. It provides a small selection of filters and some examples. It also allows you to save your models and load already trained ones.
 
